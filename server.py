@@ -5,7 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 
 # Configuración de la base de datos
-DB_USER = 'tfl0user'
+DB_USER = 'fl0user'
 DB_PASS = '4qWeDjYl1ixT'
 DB_HOST = 'ep-billowing-sun-46121554.eu-central-1.aws.neon.fl0.io'
 DB_NAME = 'database'
