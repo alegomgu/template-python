@@ -47,7 +47,7 @@ def init_db():
 @app.route('/personas')
 def get_personas():
     personas = Persona.query.all()
-    return jsonify([{'id': p.id, 'nombre': p.nombre, 'edad': p.edad} for p in personas])
+    return render_template('personas.html', personas=personas)
 
 @app.route('/mascotas')
 def get_mascotas():
