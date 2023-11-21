@@ -17,5 +17,9 @@ def home():
 def all_routes(path):
     return redirect('/')
 
+@app.route('/hola')
+def home():
+   return 'Hola'
+
 if __name__ == "__main__":
     app.run(port=port)
